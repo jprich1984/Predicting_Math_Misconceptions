@@ -1,0 +1,80 @@
+# Model checkpoints (too large for GitHub)
+checkpoints/*.pt
+checkpoints/*.pth
+checkpoints/*.bin
+models/*.pt
+models/*.pth
+
+# Model cache
+model_cache/
+.cache/
+
+# Data files (potentially large)
+data/*.csv
+data/*.parquet
+data/*.json
+data/*.pkl
+data/*.pickle
+
+# Keep directory structure but ignore contents
+!checkpoints/.gitkeep
+!data/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+
+# Hugging Face cache
+.huggingface/
+
+# Temporary files
+tmp/
+temp/
+*.tmp

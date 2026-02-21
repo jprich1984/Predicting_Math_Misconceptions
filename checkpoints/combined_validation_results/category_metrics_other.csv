@@ -1,0 +1,7 @@
+Class,Precision,Recall,F1,Support
+False_Correct,0.0,0.0,0.0,0
+False_Misconception,0.0,0.0,0.0,0
+True_Correct,0.0,0.0,0.0,0
+True_Misconception,0.0,0.0,0.0,0
+True_Neither,1.0,0.012658227848101266,0.025,237
+False_Neither,1.0,0.038338658146964855,0.07384615384615385,313
